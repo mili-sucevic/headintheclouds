@@ -9,7 +9,7 @@ terraform {
 
   # Backend S3 Remote State Storage
   backend "s3" {
-    bucket = "headintheclouds-terraform-aws-eks"
+    bucket = "headintheclouds-tf-aws-eks"
     key    = "dev/eks-cluster/terraform.tfstate"
     region = "us-east-1"
 
