@@ -11,7 +11,7 @@ variable "environment" {
   type        = string
 }
 
-# Business Division
+# Business Segment
 variable "business_segment" {
   description = "Specify the business segment within the organization that this infrastructure is associated with"
   type        = string
