@@ -2,7 +2,7 @@
 resource "kubernetes_ingress_v1" "ingress" {
   metadata {
     name = "fargate-profile-demo"
-    namespace = "fp-ns-app-01"        
+    namespace = "fp-ns-app1"        
     annotations = {
       # Load Balancer Name
       "alb.ingress.kubernetes.io/load-balancer-name" = "fargate-profile-demo"

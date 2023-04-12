@@ -2,7 +2,7 @@
 resource "kubernetes_deployment_v1" "myapp2" {
   metadata {
     name = "app2-nginx-deployment"
-    namespace = "fp-ns-app-01"    
+    namespace = "fp-ns-app1"    
     labels = {
       app = "app2-nginx"
     }

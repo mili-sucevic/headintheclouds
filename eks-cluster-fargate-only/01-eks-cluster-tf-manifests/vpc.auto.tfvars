@@ -1,4 +1,4 @@
-vpc_name                               = "headintheclouds-vpc"
+vpc_name                               = "vpc-headintheclouds"
 vpc_cidr_block                         = "10.0.0.0/16"
 vpc_availability_zones                 = ["us-east-1a", "us-east-1b"]
 vpc_public_subnets                     = ["10.0.101.0/24", "10.0.102.0/24"]
