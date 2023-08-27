@@ -23,7 +23,9 @@ food = [sh // 2, sw // 2]
 w.addch(food[0], food[1], '@', curses.color_pair(2))
 
 key = curses.KEY_RIGHT
+
 score = 0
+
 while True:
     next_key = w.getch()
     key = key if next_key == -1 else next_key
@@ -31,7 +33,6 @@ while True:
     if snake[0][0] in [0, sh] or snake[0][1] in [0, sw] or snake[0] in snake[1:]:
         curses.endwin()
         print("Your score:", score)
-
         quit()
 
     new_head = [snake[0][0], snake[0][1]]
